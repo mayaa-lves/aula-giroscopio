@@ -72,3 +72,19 @@ export default function App() {
         marginTop: 10,
     },
  });
+
+
+
+
+//  Respondendo as perguntas da auala:
+// 1- Qual o papel do UseState nesse código?
+    // O papel do useState  é criar uma variavel para as 'coordenadas' do giroscopio, definindo seu valor inicial e a função que será usada para atualiza-la (setData).
+
+// 2- O que a função return dentro do useEffect faz? pq ela é crucial?
+    // é uma função de limpeza dos dados quando o componente n esta mais em uso, é importante para evitar vazamento de memória e perda de recursos em vão.
+
+// 3- E o useEffect? pq ele é tao importnate aqui? 
+    // ele é importante pois ele é como um manual de intruções que diz ao componente como e quando fazer. no caso ele diz quando atualizar os dados  do sensor e quando limpa-los.
+
+// 4- O que significa [] no final do UseEffect?
+    // significa que o useEffect será executado apenas uma vez, quando o componente for 'ligado'.
