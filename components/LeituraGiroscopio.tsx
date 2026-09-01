@@ -19,7 +19,7 @@ export default function App() {
     // useEffect -> manual de instruções para o componente
     useEffect(() => {
         // definindo a rapidez com que receberemos atualizações do sensor
-        Gyroscope.setUpdateInterval(300);
+        Gyroscope.setUpdateInterval(100);
 
         // executar o giroscópio - 'addListener' é uma função que sera executada sempre que houver uma atualização do sensor
         const subscription = Gyroscope.addListener(gyroscopeData => {
