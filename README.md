@@ -218,13 +218,13 @@ Como o projeto utiliza o giroscópio, é recomendado testar em um **dispositivo 
 Clone o repositório:
 
 ```bash
-git clone URL_DO_REPOSITORIO
+git clone https://github.com/mayaa-lves/aula-giroscopio.git
 ```
 
 Entre na pasta:
 
 ```bash
-cd nome-do-projeto
+cd aula-giroscopio
 ```
 
 Instale as dependências:
